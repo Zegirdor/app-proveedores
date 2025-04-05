@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nombre": "Proveedor Uno",
+    "razonSocial": "RS Proveedor Uno S.A. mod",
+    "direccion": "Calle Falsa 123"
+  },
+  {
+    "id": "2",
+    "nombre": "Proveedor Dos",
+    "razonSocial": "RS Proveedor Dos S.A.",
+    "direccion": "Avenida Siempre Viva 742"
+  },
+  {
+    "id": "3",
+    "nombre": "c",
+    "razonSocial": "b",
+    "direccion": "b"
+  },
+  {
+    "id": "4",
+    "nombre": "d",
+    "razonSocial": "a",
+    "direccion": "a"
+  }
+]
