@@ -7,10 +7,8 @@ import React from 'react';
 import { Button, Container, Typography, Box, AppBar, Toolbar } from '@mui/material';
 import Link from 'next/link';
 
-// Si tienes un logo local en assets, colócalo en la carpeta public y usa esta importación
 // import GapsiLogo from '../public/assets/gapsi-logo.png';
 
-// Si el logo está en una URL pública, usa esta URL directamente:
 const GapsiLogo = '../icon.png';
 
 const geistSans = Geist({
@@ -38,7 +36,7 @@ export default function Home() {
         </Toolbar>
       </AppBar>
 
-      {/* Contenido Principal */}
+      {}
       <Container>
         <Box sx={{ textAlign: 'center', marginTop: 4 }}>
           <Typography variant="h3" gutterBottom>

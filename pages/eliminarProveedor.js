@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, IconButton, Modal, Typography, Button } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-// Definir la consulta de GraphQL para obtener los proveedores
+// Consulta de GraphQL para obtener los proveedores
 const GET_PROVEEDORES = gql`
   query GetProveedores {
     proveedores {
@@ -16,7 +16,7 @@ const GET_PROVEEDORES = gql`
   }
 `;
 
-// Definir la mutación de GraphQL para eliminar un proveedor
+// Mutación de GraphQL para eliminar un proveedor
 const ELIMINAR_PROVEEDOR = gql`
   mutation EliminarProveedor($id: ID!) {
     eliminarProveedor(id: $id) {

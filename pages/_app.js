@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { ApolloProvider } from '@apollo/client';
-import client from '../lib/apolloClient'; // Importar cliente Apollo
+import client from '../lib/apolloClient'; // Cliente Apollo
 
 function proveedores_app({ Component, pageProps }) {
   return (

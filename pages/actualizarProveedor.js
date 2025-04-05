@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, IconButton, Modal, TextField, Button, Typography } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 
-// Definir la consulta de GraphQL para obtener los proveedores
+// Consulta de GraphQL para obtener los proveedores
 const GET_PROVEEDORES = gql`
   query GetProveedores {
     proveedores {
@@ -15,7 +15,7 @@ const GET_PROVEEDORES = gql`
   }
 `;
 
-// Definir la mutación de GraphQL para actualizar un proveedor
+// Mutación de GraphQL para actualizar un proveedor
 const ACTUALIZAR_PROVEEDOR = gql`
   mutation ActualizarProveedor($id: ID!, $nombre: String, $razonSocial: String, $direccion: String) {
     actualizarProveedor(id: $id, nombre: $nombre, razonSocial: $razonSocial, direccion: $direccion) {
